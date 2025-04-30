@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Gatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo dos Gatos</h1>
+    </header>
+    <div class="container">
+        <main>
+            <section>
+                <h2>Sobre os Gatos</h2>
+                <p>Os gatos são animais fascinantes, conhecidos por sua independência e personalidade única. Eles são companheiros leais e adorados por milhões de pessoas ao redor do mundo.</p>
+            </section>
+            <section>
+                <h2>Raças de Gatos</h2>
+                <p>Existem muitas raças de gatos, cada uma com suas características únicas. Aqui estão algumas delas:</p>
+                <ol>
+                    <li>Persa</li>
+                    <li>Siamês</li>
+                    <li>Maine Coon</li>
+                    <li>Bengal</li>
+                    <li>Sphynx</li>
+                </ol>
+                <p>Além disso, há características gerais que muitos gatos compartilham:</p>
+                <ul>
+                    <li>Independência</li>
+                    <li>Carinho</li>
+                    <li>Habilidade de caça</li>
+                    <li>Adaptação a ambientes diversos</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Galeria de Imagens</h2>
+                <div class="galeriaImagens">
+                    <div class="gato">
+                    <img src="assets/gatoPersa.jpg" alt="Gato Persa">
+                    <p>Persa</p>
+                    </div>
+                    <div class="gato">
+                    <img src="assets/gatoSiames.jpg" alt="Gato Siamês">
+                    <p>Siamês</p>
+                    </div>
+                    <div class="gato">
+                    <img src="assets/gatoMaineCoon.jpg" alt="Gato Maine Coon">
+                    <p>Maine Coon</p>
+                    </div>
+                    <div class="gato">
+                    <img src="assets/gatoBengal.jpg" alt="Gato Bengal">
+                    <p>Bengal</p>
+                    </div>
+                    <div class="gato">
+                    <img src="assets/gatoSphynx.jpg" alt="Gato Sphynx">
+                    <p>Sphynx</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Comparação de Raças</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Raça</th>
+                            <th>Origem</th>
+                            <th>Características</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Persa</td>
+                            <td>Irã</td>
+                            <td>Pelo longo, temperamento calmo</td>
+                        </tr>
+                        <tr>
+                            <td>Siamês</td>
+                            <td>Tailândia</td>
+                            <td>Vocal, social</td>
+                        </tr>
+                        <tr>
+                            <td>Maine Coon</td>
+                            <td>Estados Unidos</td>
+                            <td>Grande porte, amigável</td>
+                        </tr>
+                        <tr>
+                            <td>Bengal</td>
+                            <td>Estados Unidos</td>
+                            <td>Pelo manchado, energético</td>
+                        </tr>
+                        <tr>
+                            <td>Sphynx</td>
+                            <td>Canadá</td>
+                            <td>Sem pelos, afetuoso</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Formulário sobre Gatos</h2>
+                <form action="sucess.html" method="get">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Seu Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="raca-favorita">Raça Favorita:</label>
+                    <select id="raca-favorita" name="raca-favorita">
+                        <option value="persa">Persa</option>
+                        <option value="siames">Siamês</option>
+                        <option value="maine-coon">Maine Coon</option>
+                        <option value="bengal">Bengal</option>
+                        <option value="sphynx">Sphynx</option>
+                    </select>
+                    
+                    <label for="mensagem">Por que você gosta de gatos?</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
